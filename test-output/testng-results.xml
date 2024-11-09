@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TestPass, URL Matched]]>
+    </line>
+    <line>
+      <![CDATA[url matched successfully]]>
+    </line>
+    <line>
+      <![CDATA[link match ans pass]]>
+    </line>
+    <line>
+      <![CDATA[TestPass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-08T16:09:16 IST" name="Suite" finished-at="2024-11-08T16:09:37 IST" duration-ms="21402">
+    <groups>
+    </groups>
+    <test started-at="2024-11-08T16:09:16 IST" name="HomePage Test" finished-at="2024-11-08T16:09:29 IST" duration-ms="13224">
+      <class name="com.staragile.HomePageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.HomePageTest@7674f035]" started-at="2024-11-08T16:09:16 IST" name="Setup" finished-at="2024-11-08T16:09:23 IST" duration-ms="7336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyURL()[pri:1, instance:com.staragile.HomePageTest@7674f035]" started-at="2024-11-08T16:09:23 IST" name="VerifyURL" finished-at="2024-11-08T16:09:23 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestPass, URL Matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyURL -->
+        <test-method signature="VerifyTitle()[pri:2, instance:com.staragile.HomePageTest@7674f035]" started-at="2024-11-08T16:09:23 IST" name="VerifyTitle" finished-at="2024-11-08T16:09:23 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[url matched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method signature="ValidateSignInLink()[pri:3, instance:com.staragile.HomePageTest@7674f035]" started-at="2024-11-08T16:09:23 IST" name="ValidateSignInLink" finished-at="2024-11-08T16:09:29 IST" duration-ms="5707" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[link match ans pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSignInLink -->
+      </class> <!-- com.staragile.HomePageTest -->
+    </test> <!-- HomePage Test -->
+    <test started-at="2024-11-08T16:09:29 IST" name="LoginPageTestCase" finished-at="2024-11-08T16:09:37 IST" duration-ms="8037">
+      <class name="com.staragile.LoginPageTestCase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.LoginPageTestCase@1a75e76a]" started-at="2024-11-08T16:09:29 IST" name="Setup" finished-at="2024-11-08T16:09:33 IST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="pagesetup()[pri:0, instance:com.staragile.LoginPageTestCase@1a75e76a]" started-at="2024-11-08T16:09:33 IST" name="pagesetup" finished-at="2024-11-08T16:09:35 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagesetup -->
+        <test-method signature="ValidateLogin()[pri:0, instance:com.staragile.LoginPageTestCase@1a75e76a]" started-at="2024-11-08T16:09:35 IST" name="ValidateLogin" finished-at="2024-11-08T16:09:37 IST" duration-ms="2311" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestPass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+      </class> <!-- com.staragile.LoginPageTestCase -->
+    </test> <!-- LoginPageTestCase -->
+  </suite> <!-- Suite -->
+</testng-results>
